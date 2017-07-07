@@ -1,6 +1,7 @@
 {
 	"ImportPath": "github.com/laike9m/WechatShadowClone",
-	"GoVersion": "go1.8.3",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
 	"Deps": [
 		{
 			"ImportPath": "github.com/cheggaaa/pb",
@@ -23,6 +24,10 @@
 		},
 		{
 			"ImportPath": "github.com/mdp/rsc/qr",
+			"Rev": "90f07065088deccf50b28eb37c93dad3078c0f3c"
+		},
+		{
+			"ImportPath": "github.com/mdp/rsc/qr/coding",
 			"Rev": "90f07065088deccf50b28eb37c93dad3078c0f3c"
 		},
 		{
