@@ -1,0 +1,53 @@
+{
+	"ImportPath": "github.com/laike9m/WechatShadowClone",
+	"GoVersion": "go1.8.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/cheggaaa/pb",
+			"Comment": "v1.0.15",
+			"Rev": "f6ccf2184de4dd34495277e38dc19b6e7fbe0ea2"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-runewidth",
+			"Comment": "v0.0.2-3-g97311d9",
+			"Rev": "97311d9f7767e3d6f422ea06661bc2c7a19e8a5d"
+		},
+		{
+			"ImportPath": "github.com/mdp/qrterminal",
+			"Comment": "v0.1.1-2-gbd37d7b",
+			"Rev": "bd37d7b62c3e19529343c3426e649b300d3102f8"
+		},
+		{
+			"ImportPath": "github.com/mdp/rsc/gf256",
+			"Rev": "90f07065088deccf50b28eb37c93dad3078c0f3c"
+		},
+		{
+			"ImportPath": "github.com/mdp/rsc/qr",
+			"Rev": "90f07065088deccf50b28eb37c93dad3078c0f3c"
+		},
+		{
+			"ImportPath": "github.com/songtianyi/rrframework/config",
+			"Rev": "feb983ace8e14330bba25f268d3c4a235a51b6c2"
+		},
+		{
+			"ImportPath": "github.com/songtianyi/rrframework/logs",
+			"Rev": "feb983ace8e14330bba25f268d3c4a235a51b6c2"
+		},
+		{
+			"ImportPath": "github.com/songtianyi/rrframework/storage",
+			"Rev": "feb983ace8e14330bba25f268d3c4a235a51b6c2"
+		},
+		{
+			"ImportPath": "github.com/songtianyi/wechat-go/plugins/wxweb/switcher",
+			"Rev": "cf8230bff87f020d9ea6eae49ec55a7a5ba0b7dd"
+		},
+		{
+			"ImportPath": "github.com/songtianyi/wechat-go/wxweb",
+			"Rev": "cf8230bff87f020d9ea6eae49ec55a7a5ba0b7dd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "2a824cf9226006580a06d9fa8f10901c17b49ed5"
+		}
+	]
+}
