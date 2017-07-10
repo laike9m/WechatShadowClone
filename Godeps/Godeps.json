@@ -4,6 +4,15 @@
 	"GodepVersion": "v79",
 	"Deps": [
 		{
+			"ImportPath": "github.com/PuerkitoBio/goquery",
+			"Comment": "v1.0.1-2-g152b1a2",
+			"Rev": "152b1a2c8f5d0340f658bb656032a39b94e52958"
+		},
+		{
+			"ImportPath": "github.com/andybalholm/cascadia",
+			"Rev": "1c31af6f6c1a7b101ed05aacc7d8a738b43ae86e"
+		},
+		{
 			"ImportPath": "github.com/cheggaaa/pb",
 			"Comment": "v1.0.15",
 			"Rev": "f6ccf2184de4dd34495277e38dc19b6e7fbe0ea2"
@@ -31,6 +40,11 @@
 			"Rev": "90f07065088deccf50b28eb37c93dad3078c0f3c"
 		},
 		{
+			"ImportPath": "github.com/songtianyi/laosj/spider",
+			"Comment": "v1.0.9-6-gaf5e8d9",
+			"Rev": "af5e8d9eed98559398560a4cc7e403d264ed8977"
+		},
+		{
 			"ImportPath": "github.com/songtianyi/rrframework/config",
 			"Rev": "feb983ace8e14330bba25f268d3c4a235a51b6c2"
 		},
@@ -43,12 +57,32 @@
 			"Rev": "feb983ace8e14330bba25f268d3c4a235a51b6c2"
 		},
 		{
+			"ImportPath": "github.com/songtianyi/wechat-go/plugins/wxweb/faceplusplus",
+			"Rev": "cf8230bff87f020d9ea6eae49ec55a7a5ba0b7dd"
+		},
+		{
+			"ImportPath": "github.com/songtianyi/wechat-go/plugins/wxweb/gifer",
+			"Rev": "cf8230bff87f020d9ea6eae49ec55a7a5ba0b7dd"
+		},
+		{
+			"ImportPath": "github.com/songtianyi/wechat-go/plugins/wxweb/replier",
+			"Rev": "cf8230bff87f020d9ea6eae49ec55a7a5ba0b7dd"
+		},
+		{
 			"ImportPath": "github.com/songtianyi/wechat-go/plugins/wxweb/switcher",
 			"Rev": "cf8230bff87f020d9ea6eae49ec55a7a5ba0b7dd"
 		},
 		{
 			"ImportPath": "github.com/songtianyi/wechat-go/wxweb",
 			"Rev": "cf8230bff87f020d9ea6eae49ec55a7a5ba0b7dd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "2a824cf9226006580a06d9fa8f10901c17b49ed5"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "2a824cf9226006580a06d9fa8f10901c17b49ed5"
 		},
 		{
 			"ImportPath": "golang.org/x/net/websocket",

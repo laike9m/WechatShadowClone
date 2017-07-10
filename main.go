@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"time"
 
+	"github.com/songtianyi/rrframework/logs"
 	"github.com/songtianyi/wechat-go/plugins/wxweb/switcher"
 	"github.com/songtianyi/wechat-go/wxweb"
 
@@ -24,7 +26,20 @@ func main() {
 	session.HandlerRegister.EnableByName("receiver")
 
 	// 登录并接收消息
-	if err := session.LoginAndServe(false); err != nil {
-		fmt.Printf("session exit, %s", err)
+	for {
+		if err := session.LoginAndServe(false); err != nil {
+			fmt.Printf("session exit, %s", err)
+			for i := 0; i < 3; i++ {
+				logs.Info("trying re-login with cache")
+				if err := session.LoginAndServe(true); err != nil {
+					logs.Error("re-login error, %s", err)
+				}
+				time.Sleep(3 * time.Second)
+			}
+			if session, err = wxweb.CreateSession(nil, session.HandlerRegister, wxweb.TERMINAL_MODE); err != nil {
+				logs.Error("create new sesion failed, %s", err)
+				break
+			}
+		}
 	}
 }
