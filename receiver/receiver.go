@@ -3,8 +3,8 @@ package receiver // 以插件名命令包名
 import (
 	"fmt"
 
+	"github.com/laike9m/wechat-go/wxweb"     // 导入协议包
 	"github.com/songtianyi/rrframework/logs" // 导入日志包
-	"github.com/songtianyi/wechat-go/wxweb"  // 导入协议包
 )
 
 // 必须有的插件注册函数
