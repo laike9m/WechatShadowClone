@@ -14,7 +14,6 @@ func main() {
 	// 创建session, 一个session对应一个机器人
 	// 二维码显示在终端上
 	session, err := wxweb.CreateSession(nil, nil, wxweb.TERMINAL_MODE)
-	fmt.Println("here")
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -31,7 +30,7 @@ func main() {
 			fmt.Printf("session exit, %s", err)
 			for i := 0; i < 3; i++ {
 				logs.Info("trying re-login with cache")
-				if err := session.LoginAndServe(true); err != nil {
+				if err = session.LoginAndServe(false); err != nil {
 					logs.Error("re-login error, %s", err)
 				}
 				time.Sleep(3 * time.Second)
